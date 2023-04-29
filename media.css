@@ -1,0 +1,133 @@
+@media screen and (max-width: 400px) {
+  .game-block-border, .game-block {
+    padding: 0;
+  }
+  .partner {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .header .menu {
+    display: none;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .partners {
+    margin: 0;
+  }
+
+  .preview {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .preview h1 {
+    font-size: 15vw;
+    padding: 0 20px;
+  } 
+
+  .person {
+    margin: 0;
+  }
+
+  .person-info {
+    flex-direction: column;
+  }
+
+  .person-info>div:first-child {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .preview h1 {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .partner-info {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .download>div:last-child {
+    margin: 0;
+  }
+
+}
+
+@media screen and (max-width: 1600px) {
+  .game-block img {
+    margin-right: 20px;
+  }
+  .game-block-border img, .game-block img {
+    height: 15vw;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .partners {
+    justify-content: center;
+  }
+  .partner {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 1441px) {
+  .team-list {
+    column-gap: 5em;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  
+  .inner-container {
+    margin-bottom: 75px;
+  }
+
+  .game-block-border, .game-block {
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
+  
+  .game-block-border img, .game-block img {
+    height: auto;
+    min-height: 98px;
+    padding: 0 10em 2em 10em;
+    min-width: 208px;
+  }
+  .game-block-border div, .game-block div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .game-block-border h3, .game-block h3, .game-block-border p, .game-block p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .game-block-border img, .game-block img {
+    padding: 0;
+  }
+}

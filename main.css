@@ -1,0 +1,329 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: #343434;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+p {
+  font-size: 26px;
+  color: #454545;
+}
+
+.header {
+  padding: 15px 40px;
+  color: white;
+  background-color: #155559;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .menu {
+  display: flex;
+  column-gap: 5vw;
+}
+
+.header .menu a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.header .menu li {
+  list-style-type: none;
+}
+
+.preview {
+ background-image: url('./img/bg.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+}
+
+.preview h1 {
+  margin: 0;
+  color: white;
+  padding: 230px 0 0 130px;
+  font-weight: bold;
+  font-size: 96px;
+}
+
+.container {
+  padding: 5em;
+}
+
+.inner-container {
+  padding: 0 2em;
+}
+
+.game-block-border {
+  border-radius: 15px;
+  -webkit-box-shadow:0px 0px 10px 0px rgb(34 60 80 / 20%);
+  -moz-box-shadow: 0px 0px 10px 0px rgb(34 60 80 / 20%);
+  box-shadow:0px 0px 10px 0px rgb(34 60 80 / 20%);
+}
+
+.game-block-border, .game-block {
+  padding: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-block-border img, .game-block img {
+  height: 300px;
+}
+
+.game-info {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.game-info h3, .game-info p {
+  margin: 0 0 10px 0;
+  font-size: 26px;
+}
+
+.team-title {
+  margin-top: 150px;
+}
+
+.team {
+  margin-top: 150px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 5em;
+  column-gap: 1em;
+  margin: 0 2em;
+}
+
+.person {
+  border-radius: 15px;
+  -webkit-box-shadow:0px 0px 10px 0px rgb(34 60 80 / 20%);
+  -moz-box-shadow: 0px 0px 10px 0px rgb(34 60 80 / 20%);
+  box-shadow:0px 0px 10px 0px rgb(34 60 80 / 20%);
+  padding: 2em;
+}
+
+.person img {
+  height: 200px;
+  width: 200px;
+}
+
+.person-left {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10em;
+}
+
+
+.person-right {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10em;
+}
+
+.person-info {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2em;
+}
+
+.label {
+  font-size: smaller;
+  color: #4545459d;
+  font-weight: lighter;
+}
+
+.label-target {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.person h4 {
+  margin-bottom: 5px;
+}
+
+.person ul {
+  margin-top: 0;
+  list-style: circle;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1em;
+  flex-wrap: wrap;
+  row-gap: 5em;
+}
+
+.partner-title {
+  margin-top: 150px;
+}
+
+.partner {
+  margin-top: 150px;
+  border-radius: 15px;
+  -webkit-box-shadow:0px 0px 10px 0px rgb(34 60 80 / 20%);
+  -moz-box-shadow: 0px 0px 10px 0px rgb(34 60 80 / 20%);
+  box-shadow:0px 0px 10px 0px rgb(34 60 80 / 20%);
+  padding: 2em;
+  margin: 0 2em;
+  max-width: 600px;
+}
+
+.partner img {
+  height: 200px;
+}
+
+.partner-info {
+  display: flex;
+  column-gap: 1em;
+  color: #343434;
+}
+
+.partner-info>div {
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+}
+
+.partner-info>div>div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.partner-info>div>div>div {
+  text-align: center;
+}
+
+.partner-info>div>div>div:first-child {
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.partner-info>div>div>div:last-child  {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #6a6a6a;
+}
+
+.partner p {
+  font-size: 20px;
+}
+
+.download-title {
+  margin-top: 150px;
+}
+
+.download {
+  flex-wrap: wrap;
+  row-gap: 5em;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 2em;
+  column-gap: 2em;
+}
+
+.download div div {
+  font-size: 28px;
+}
+
+.download>div:last-child {
+  height: min-content;
+}
+
+.download>div:first-child ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.download>div:first-child ul li img {
+  height: 80px;
+}
+
+.download>div:first-child ul li img:hover {
+  cursor: pointer;
+}
+
+.download>div:last-child {
+  margin-right: 10em;
+  border-radius: 15px;
+  -webkit-box-shadow:0px 0px 10px 0px rgb(34 60 80 / 20%);
+  -moz-box-shadow: 0px 0px 10px 0px rgb(34 60 80 / 20%);
+  box-shadow:0px 0px 10px 0px rgb(34 60 80 / 20%);
+  padding: 2em;
+}
+
+.download>div:last-child li {
+  padding-bottom: 10px;
+}
+
+.apk img {
+  height: 50px;
+}
+
+.apk img:hover {
+  cursor: pointer;
+}
+
+.apk {
+  margin-top: 10px;
+  display: flex;
+}
+
+.apk>div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.apk>div>div {
+  font-size: 18px !important;
+  color: blue;
+}
+
+.apk>div>div:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #ACBCBD;
+  color: white;
+  padding: 2em 5em;
+
+}
+
+.footer a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  display: flex;
+  row-gap: 2em;
+  column-gap: 2em;
+  flex-wrap: wrap;
+}
