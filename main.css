@@ -315,15 +315,14 @@ p {
   background-color: #ACBCBD;
   color: white;
   padding: 2em 5em;
-
+  display: flex;
+  row-gap: 2em;
+  column-gap: 2em;
 }
 
 .footer a {
   color: white;
   margin-right: 15px;
   text-decoration: none;
-  display: flex;
-  row-gap: 2em;
-  column-gap: 2em;
   flex-wrap: wrap;
 }
