@@ -54,15 +54,68 @@
   }
 }
 
-@media screen and (max-width: 730px) {
-  .preview h1 {
-    padding: 50px;
-  }
-}
-
 @media screen and (max-width: 900px) {
   .partner-info {
     display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .preview h1 {
+    font-size: 6em;
+    padding-left: 10vw;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .preview h1 {
+    font-size: 5em;
+    padding-left: 8vw;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .preview h1 {
+    font-size: 4em;
+    padding-left: 6vw;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .preview h1 {
+    font-size: 4em;
+    padding-left: 6vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .preview h1 {
+    font-size: 3.5em;
+    padding-left: 5vw;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .preview h1 {
+    font-size: 3em;
+    padding-left: 4vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .preview h1 {
+    font-size: 2.5em;
+    padding-left: 3vw;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .preview h1 {
+    font-size: 2em;
+    padding-left: 2vw;
+  }
+  #projects {
+    font-size: 36px;
   }
 }
 
